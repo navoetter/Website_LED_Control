@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <h1>LED Steuerung</h1>
+        <div class="button-container">
+            <form action="/led_on" method="post" id="on_btn">
+                <button class="on-button">An</button>
+            </form>
+            <form action="/led_off" method="post" id="on_btn">
+                <button class="off-button">Aus</button>
+            </form>
+        </div>
+        <p>{{ timestamp }}</p>
+    </body>
+</html>

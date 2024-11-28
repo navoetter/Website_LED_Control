@@ -1,0 +1,49 @@
+/* Styles f�r den Titel */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Allgemeine Styles f�r Buttons */
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Style f�r den Einschaltknopf */
+.on-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.on-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Style f�r den Ausschaltknopf */
+.off-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.off-button:hover {
+    background-color: #e53935;
+    transform: scale(1.05);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh; /* Vollst�ndige H�he des Ansichtsfensters */
+    background-color: #f9f9f9; /* Optionaler Hintergrund */
+}
