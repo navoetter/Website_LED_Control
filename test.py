@@ -6,7 +6,7 @@ from time import strftime
 app = Flask(__name__)
 
 
-led = LED(17)  # PIN ÄNDERNNNNNNNNNNNNNNNNNNNN
+led = LED(16)  
 last_timestamp = ""
 
 
